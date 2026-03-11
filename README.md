@@ -18,7 +18,7 @@
 
 <br/>
 
-**[🚀 Live Demo](#)** · **[📊 Model Results](#-model-performance)** · **[🏗️ Architecture](#-architecture)**
+**[🚀 Live Demo](#)** · **[📊 Model Results](#-model-performance)** · **[🏗️ Architecture](#️-architecture)**
 
 </div>
 
@@ -65,7 +65,7 @@ Retail businesses lose **$1.75 trillion annually** from bad inventory decisions.
 ┌─────────────────────────────────────────────────────────────┐
 │              ETL PIPELINE (AWS Lambda)                      │
 │   ingest → clean → validate (9 checks) → load              │
-│   Pandas · NumPy · SQLAlchemy · Great Expectations          │
+│   Pandas · NumPy · SQLAlchemy                               │
 └─────────────────────┬───────────────────────────────────────┘
                       │
                       ▼
@@ -138,7 +138,7 @@ retail-forecasting/
 
 ```bash
 # 1. Clone & install
-git clone https://github.com/mohitbalachander/retail-forecasting
+git clone https://github.com/Mohit-Balachander/retail-forecasting
 cd retail-forecasting
 pip install -r requirements.txt
 
@@ -229,8 +229,8 @@ pytest tests/ -v
 
 **Mohit Balachander** — Integrated M.Tech CSE, VIT-AP University
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat&logo=linkedin)](https://linkedin.com/in/mohitbalachander)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=flat&logo=github)](https://github.com/mohitbalachander)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat&logo=linkedin)](https://www.linkedin.com/in/mohit-balachander/)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=flat&logo=github)](https://github.com/Mohit-Balachander)
 
 ---
 
