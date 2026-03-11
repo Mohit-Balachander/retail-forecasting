@@ -1,5 +1,7 @@
 # Secrets - NEVER push
 .env
+.env.example
+env.example
 kaggle.json
 
 # Large raw files - not needed
