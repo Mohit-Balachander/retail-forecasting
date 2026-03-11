@@ -1,0 +1,23 @@
+{
+  "model": "XGBoost",
+  "trained_at": "2026-03-11T16:19:16.469596",
+  "metrics": {
+    "rmse": 1299.3224,
+    "mae": 932.993,
+    "r2": 0.825,
+    "rmspe": 0.2378
+  },
+  "top_features": {
+    "Promo": 0.2296619713306427,
+    "Promo2": 0.10024403780698776,
+    "CompetitionDistance": 0.08730277419090271,
+    "StoreType": 0.08413611352443695,
+    "Assortment": 0.07910475879907608,
+    "Store": 0.07807981967926025,
+    "Day": 0.05943583697080612,
+    "DayOfWeek": 0.05237885192036629,
+    "WeekOfYear": 0.04954805597662926,
+    "CompetitionOpenMonths": 0.04005143791437149
+  },
+  "n_estimators": 500
+}
