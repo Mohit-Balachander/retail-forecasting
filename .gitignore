@@ -1,18 +1,15 @@
-# Secrets
+# Secrets - NEVER push
 .env
+kaggle.json
 
-# Large data files
+# Large raw files - not needed
 data/raw/
 data/processed/
-data/validated/
 
 # Python
 .venv/
 __pycache__/
 *.pyc
-
-# Models (too large for GitHub)
-models/saved/
 
 # OS
 .DS_Store
