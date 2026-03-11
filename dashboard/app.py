@@ -5,6 +5,15 @@ Streamlit Dashboard — Smart Retail Forecasting Platform
 Theme: Deep teal + amber gold — premium data analytics aesthetic
 """
 
+# ── Auto-setup for Streamlit Cloud ─────────────────────────
+import subprocess, sys as _sys
+from pathlib import Path as _Path
+if not _Path("data/validated/validated_train.csv").exists() or not _Path("models/saved/xgboost_model.json").exists():
+    with open("setup_log.txt", "w") as _log:
+        subprocess.run([_sys.executable, "setup_data.py"], stdout=_log, stderr=_log)
+
+
+
 import streamlit as st
 import pandas as pd
 import numpy as np
