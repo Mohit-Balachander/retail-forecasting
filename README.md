@@ -13,12 +13,12 @@
 
 <br/>
 
-> *"Why did Store 47 lose €12,000 last Tuesday?"*
+> _"Why did Store 47 lose €12,000 last Tuesday?"_
 > RetailIQ tells you — automatically.
 
 <br/>
 
-**[🚀 Live Demo](#)** · **[📊 Model Results](#-model-performance)** · **[🏗️ Architecture](#️-architecture)**
+**[🚀 Live Demo](https://retail-forecasting.streamlit.app)** · **[📊 Model Results](#-model-performance)** · **[🏗️ Architecture](#️-architecture)**
 
 </div>
 
@@ -38,10 +38,10 @@ Retail businesses lose **$1.75 trillion annually** from bad inventory decisions.
 
 ## 📊 Model Performance
 
-| Model | RMSE | MAE | R² | Notes |
-|-------|------|-----|-----|-------|
-| **XGBoost** | 1,299 | 932 | **0.825** | Primary forecasting model |
-| **LSTM** | 2,421 | 1,683 | 0.316 | Time-series deep learning |
+| Model       | RMSE  | MAE   | R²        | Notes                     |
+| ----------- | ----- | ----- | --------- | ------------------------- |
+| **XGBoost** | 1,299 | 932   | **0.825** | Primary forecasting model |
+| **LSTM**    | 2,421 | 1,683 | 0.316     | Time-series deep learning |
 
 > XGBoost explains **82.5% of all sales variation** across 1,115 stores — production-grade accuracy.
 
@@ -185,14 +185,14 @@ pytest tests/ -v
 
 ## ☁️ Deployment Stack (100% Free)
 
-| Layer | Service | Plan | Cost |
-|-------|---------|------|------|
-| Raw Storage | AWS S3 | Free Tier | €0 / 12 months |
-| ETL Trigger | AWS Lambda | Free Forever | €0 |
-| Database | Supabase | Free Forever | €0 |
-| ML Backend | Railway.app | Starter | €0 |
-| Dashboard | Streamlit Cloud | Community | €0 |
-| **Total** | | | **€0** |
+| Layer       | Service         | Plan         | Cost           |
+| ----------- | --------------- | ------------ | -------------- |
+| Raw Storage | AWS S3          | Free Tier    | €0 / 12 months |
+| ETL Trigger | AWS Lambda      | Free Forever | €0             |
+| Database    | Supabase        | Free Forever | €0             |
+| ML Backend  | Railway.app     | Starter      | €0             |
+| Dashboard   | Streamlit Cloud | Community    | €0             |
+| **Total**   |                 |              | **€0**         |
 
 ---
 
@@ -218,7 +218,7 @@ pytest tests/ -v
 - ✅ **9/9 data quality checks** passing
 - ✅ **10+ engineered features** (IsWeekend, CompetitionAge, IsPromoMonth...)
 - ✅ **XGBoost R² = 0.825** — explains 82.5% of sales variation
-- ✅ **SHAP explainability** — know *why* every prediction was made
+- ✅ **SHAP explainability** — know _why_ every prediction was made
 - ✅ **AI plain-English summaries** via Gemini API
 - ✅ **Power BI integration** via live database connection
 - ✅ **AWS Lambda handler** for serverless ETL triggering
