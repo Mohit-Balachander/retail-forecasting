@@ -1,0 +1,19 @@
+# Secrets
+.env
+
+# Large data files
+data/raw/
+data/processed/
+data/validated/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Models (too large for GitHub)
+models/saved/
+
+# OS
+.DS_Store
+Thumbs.db

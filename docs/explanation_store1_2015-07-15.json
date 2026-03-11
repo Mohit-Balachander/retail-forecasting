@@ -1,0 +1,49 @@
+{
+  "store_id": 1,
+  "date": "2015-07-15",
+  "actual_sales": 4767.0,
+  "predicted_sales": 5259.98,
+  "explanation": "Sales dropped 9.4% for Store 1 on 2015-07-15 due to Store = 1.0 and active promotion boosting traffic. Actual: 4,767 vs predicted: 5,260 units.",
+  "shap_factors": [
+    {
+      "feature": "Store",
+      "value": 1.0,
+      "shap": -1027.368896484375
+    },
+    {
+      "feature": "Promo",
+      "value": 1.0,
+      "shap": 863.085205078125
+    },
+    {
+      "feature": "Assortment",
+      "value": 0.0,
+      "shap": -750.5130615234375
+    },
+    {
+      "feature": "CompetitionDistance",
+      "value": 1270.0,
+      "shap": -512.1735229492188
+    },
+    {
+      "feature": "DayOfWeek",
+      "value": 2.0,
+      "shap": -444.57354736328125
+    },
+    {
+      "feature": "Promo2",
+      "value": 0.0,
+      "shap": 319.70672607421875
+    },
+    {
+      "feature": "CompetitionOpenMonths",
+      "value": 82.0,
+      "shap": -185.34097290039062
+    },
+    {
+      "feature": "Year",
+      "value": 2015.0,
+      "shap": 170.01539611816406
+    }
+  ]
+}

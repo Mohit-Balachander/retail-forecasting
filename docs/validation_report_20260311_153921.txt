@@ -1,0 +1,17 @@
+Data Validation Report — 2026-03-11 15:39:21.315549
+============================================================
+
+✅ PASS | Row count ≥ 1,000
+         Got 844,338 rows
+✅ PASS | Required columns present
+✅ PASS | No nulls in 'Store'
+✅ PASS | No nulls in 'Sales'
+✅ PASS | No nulls in 'Date'
+✅ PASS | Sales values non-negative
+✅ PASS | Sales outliers < 1% of data
+         5,998 outliers (0.71%)
+✅ PASS | Date range valid
+         Range: 2013-01-01 → 2015-07-31
+✅ PASS | All Store IDs positive
+
+Result: 9/9 passed
