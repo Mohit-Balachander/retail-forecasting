@@ -234,6 +234,4 @@ pytest tests/ -v
 
 ---
 
-<div align="center">
-<sub>Built as a portfolio project for Data & Analytics internship applications · 2026</sub>
-</div>
+
